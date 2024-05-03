@@ -85,18 +85,6 @@ disp.plot()
 
 plt.show()
 
-
-#import pandas
-import pandas as pd
-from nltk.tokenize import word_tokenize
-from nltk import pos_tag
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from sklearn.preprocessing import LabelEncoder
-from collections import defaultdict
-from nltk.corpus import wordnet as wn
-from sklearn.feature_extraction.text import TfidfVectorizer
-
 y_train = Train_Y
 y_test = Test_Y
 
